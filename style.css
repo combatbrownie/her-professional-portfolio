@@ -1,5 +1,5 @@
-* {
-  box-sizing: border-box;
+body,
+html {
   padding: 0;
   margin: 0;
   font-family: "Trebuchet MS";
@@ -10,10 +10,29 @@
 }
 
 .container {
-  display: flex;
-  width: 90;
+  width: 86%;
+  margin: 0 auto;
 }
-
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Arlene {
+}
+.main-nav {
+}
+.main-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.main-nav ul li {
+  float: left;
+}
+.main-nav ul li a {
+  text-decoration: none;
+}
 body {
   background: none;
 }
