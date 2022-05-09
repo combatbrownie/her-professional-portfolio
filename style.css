@@ -8,6 +8,10 @@ html {
 #header {
   background: chartreuse;
   padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .container {
@@ -42,7 +46,10 @@ html {
   text-decoration: none;
   color: black;
 }
-
+.banner img {
+  max-width: 125%;
+  vertical-align: top;
+}
 .card {
   background: white;
   width: 220px;
