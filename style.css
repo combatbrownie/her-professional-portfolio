@@ -47,9 +47,14 @@ html {
   min-height: 150px;
   max-height: 150px;
   border: chartreuse 4px solid;
-  background-image: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   margin: 10px;
+  font-style: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: solid;
+  text-align: center;
+  color: bisque;
 }
 
 /* added to change make each project its own element  */
@@ -60,6 +65,12 @@ html {
   background-image: url("https://images.pexels.com/photos/2471234/pexels-photo-2471234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   margin: 10px;
+  font-style: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: solid;
+  text-align: center;
+  color: bisque;
+
 }
 
 .project-three {
@@ -69,15 +80,25 @@ html {
   background-image: url("https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   margin: 10px;
+  font-style: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: solid;
+  text-align: center;
+  color: bisque;
 }
 
 .project-four {
   min-height: 150px;
   max-height: 150px;
   border: chartreuse 4px solid;
-  background-image: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("https://images.pexels.com/photos/5022849/pexels-photo-5022849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   margin: 10px;
+  font-style: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: solid;
+  text-align: center;
+  color: bisque;
 }
 
 .container {
@@ -99,9 +120,7 @@ html {
 .main-nav {
   margin: 6px;
   position: relative;
-  list-style-type: square;
-  text-decoration-color: royalblue;
-}
+   }
 .main-nav ul {
   padding: 0;
   margin: 0;
@@ -114,8 +133,9 @@ html {
   font-size: 18px;
 }
 .main-nav li a {
-  text-decoration: none;
-  color: black;
+  text-decoration:
+  color: fuchsia;
+  list-style-type: square;
 }
 .banner {
   /* max-width: 125%; */
