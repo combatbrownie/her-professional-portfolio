@@ -14,7 +14,7 @@ html {
   top: 0;
 }
 
-.aboutme-container > p,
+/* .aboutme-container > p,
 .aboutme-container > h1 {
   display: inline;
 }
@@ -22,6 +22,42 @@ html {
 .aboutme-container > h1 {
   border-right: solid black 2px;
   padding: 10px;
+} */
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.section .section-container {
+  flex: 0 0 20%;
+  border-right: 3px solid black;
+}
+
+.section-container h2 {
+  text-align: right;
+  margin: 20px 3px;
+}
+
+.section .section-description {
+  flex: 0 0 70%;
+  font-size: medium;
+}
+
+#profile {
+  /* width: 100px; */
+  float: left;
+  margin: 8px;
+}
+
+.project-one {
+  min-height: 150px;
+  max-height: 150px;
+  border: chartreuse 4px solid;
+  background-image: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  margin: 10px;
 }
 .container {
   width: 86%;
@@ -40,24 +76,28 @@ html {
 
 .main-nav {
 }
-
-.main-nav ul {
+.main-nav lu {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-.main-nav ul li {
+
+.main-nav li {
   float: right;
   margin-right: 25px;
   font-size: 18px;
 }
-.main-nav ul li a {
+.main-nav li a {
   text-decoration: none;
   color: black;
 }
-.banner img {
-  max-width: 125%;
-  vertical-align: top;
+.banner {
+  /* max-width: 125%; */
+  min-height: 750px;
+  max-height: 750px;
+  background-image: url("./images/anni-roenkae-banner.jpg");
+  background-size: cover;
+  /* vertical-align: top; */
 }
 .card {
   background: white;
