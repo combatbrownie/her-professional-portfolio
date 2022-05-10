@@ -14,20 +14,11 @@ html {
   top: 0;
 }
 
-/* .aboutme-container > p,
-.aboutme-container > h1 {
-  display: inline;
-}
-
-.aboutme-container > h1 {
-  border-right: solid black 2px;
-  padding: 10px;
-} */
-
 .section {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
+  padding-right: 20px;
 }
 
 .section .section-container {
@@ -38,6 +29,7 @@ html {
 .section-container h2 {
   text-align: right;
   margin: 20px 3px;
+  padding-right: 20px;
 }
 
 .section .section-description {
@@ -76,7 +68,7 @@ html {
 
 .main-nav {
 }
-.main-nav lu {
+.main-nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
