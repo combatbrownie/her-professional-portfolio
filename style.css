@@ -4,26 +4,26 @@ html {
   margin: 0;
   font-family: "Trebuchet MS";
 }
-
+/* changed padding from 20px */
 #header {
   background: chartreuse;
-  padding: 20px 0;
+  padding: -1px 0;
   width: 100%;
   position: fixed;
   left: 0;
   top: 0;
 }
-
+/* changed pr from 20px to 47px */
 .section {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
-  padding-right: 20px;
+  padding-right: 47px;
 }
-
+/* changed br to grove and fuchsia */
 .section .section-container {
   flex: 0 0 20%;
-  border-right: 3px solid black;
+  border-right: 3px groove fuchsia;
 }
 
 .section-container h2 {
@@ -51,6 +51,35 @@ html {
   background-size: cover;
   margin: 10px;
 }
+
+/* added to change make each project its own element  */
+.project-two {
+  min-height: 150px;
+  max-height: 150px;
+  border: chartreuse 4px solid;
+  background-image: url("https://images.pexels.com/photos/2471234/pexels-photo-2471234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  margin: 10px;
+}
+
+.project-three {
+  min-height: 150px;
+  max-height: 150px;
+  border: chartreuse 4px solid;
+  background-image: url("https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  margin: 10px;
+}
+
+.project-four {
+  min-height: 150px;
+  max-height: 150px;
+  border: chartreuse 4px solid;
+  background-image: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  margin: 10px;
+}
+
 .container {
   width: 86%;
   margin: 0 auto;
@@ -66,7 +95,12 @@ html {
   margin-left: 31px;
 }
 
+/* removed to see what pappens - added position */
 .main-nav {
+  margin: 6px;
+  position: relative;
+  list-style-type: square;
+  text-decoration-color: royalblue;
 }
 .main-nav ul {
   padding: 0;
@@ -95,4 +129,13 @@ html {
   background: white;
   width: 220px;
   height: 400px;
+}
+
+/*  this is a test */
+
+@media screen and (max-width: 600px) {
+  .main-nav {
+    float: none;
+    width: 100%;
+  }
 }
