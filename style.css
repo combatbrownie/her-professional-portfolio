@@ -44,8 +44,8 @@ html {
 }
 
 .project-one {
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 200px;
+  max-height: 200px;
   border: chartreuse 4px solid;
   background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
@@ -59,8 +59,8 @@ html {
 
 /* added to change make each project its own element  */
 .project-two {
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 125px;
+  max-height: 125px;
   border: chartreuse 4px solid;
   background-image: url("https://images.pexels.com/photos/2471234/pexels-photo-2471234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
@@ -74,8 +74,8 @@ html {
 }
 
 .project-three {
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 125px;
+  max-height: 125px;
   border: chartreuse 4px solid;
   background-image: url("https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
@@ -88,8 +88,8 @@ html {
 }
 
 .project-four {
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 125px;
+  max-height: 125px;
   border: chartreuse 4px solid;
   background-image: url("https://images.pexels.com/photos/5022849/pexels-photo-5022849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
@@ -101,6 +101,7 @@ html {
   color: bisque;
 }
 
+/* Pending removal */
 .container {
   width: 86%;
   margin: 0 auto;
@@ -145,14 +146,36 @@ html {
   background-size: cover;
   /* vertical-align: top; */
 }
+/* pending removal */
 .card {
   background: white;
   width: 220px;
   height: 400px;
 }
 
-/*  this is a test */
+.section-container #contact {
+  background-color: chartreuse;
+  padding: 0;
+  position: relative;
+  bottom: 0%;
+ 
+}
+.section-container #contact-info {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.section-container #coordinates {
+  float: center;
+  margin-right: 25px;
+  font-size: 20px;
+}
 
+.section-container #done {
+  color: fuchsia
+}
+
+/*  this is a test */
 @media screen and (max-width: 600px) {
   .main-nav {
     float: none;

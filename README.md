@@ -1,106 +1,18 @@
-# 02 Advanced CSS: Portfolio
+<Project> Challenge2: Advanced CSS Portfolio
 
-## Your Task
+<Description> Future employers will want to view my deployed portfolio of work samples so they can determine whether or not I can fulfill their position requirements.
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+<Exit Criteria>
+1. Upon loading my Github pages URL in a browser, you will observe my name, photo/avatar, and links to sections: about me, work examples, and my contact information.
+2. When clicking a link on the nav-menu, the UI scrolls to the corresponding section
+3. When clicking a work exmaple, the UI scrolls to a section with titled images of the developer's applications
+4. One of the work examples is larger than the others
+5. the work example images once clicked take the user to the deployed applications
+6. the user will experience a responsive design on smaller devices
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+<Methodology> Initially I took pen to paper to draw the design of the "containers" and their associated elements. A mock-up of the design was created in Figma. Admittedly I struggled with position placement of block/section/container and how to manipulate those elements to fit my design layout. As a result I started working on the html code first and then adding style to CSS.
+when I got "stuck" which was often, I asked for help from my Inst/TA/ and my tutor. The operations tempo of the program, has had an affect on my ability to solidily grasp position placement via CSS. As such I tried to be creative in other ways. At one point my profile image was a favorite meme image of April from Parks and Rec. Unfortunately, my lack of expertise in position placement caused a major hiccup in block/container boundaries and I had to replace the image with a simpler one.
 
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+<Learning> For the most part, I have addressed this section; however, there were several times during the week that I felt utterly discouraged by the fact that I am uncomfortable with advanced CSS. Yes, I have identified a huge weakness and I'm not quite sure how to overcome it. I suppose I could spend additional hours on youtube when I'm not otherwise attending office hours, instruction, or spinning my wheels on this project. Highly recommend adding another week for advanced CSS learning.
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
-
-
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
-
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+<Credits> Max Oshawa - TA with extraordinary patience; Benjamin Wright - Instructor; and a brilliant tutor whom will go unnamed ...a regret for not requesting tutoring last week.
